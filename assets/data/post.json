@@ -1,0 +1,25 @@
+{
+    "post" : {
+        "1" : {
+            "text" : "this is a post text",
+            "date" : "6/05/19",
+            "media" : {
+                "1" : {
+                    "img" : "assets/img/post-img1.jpg"
+                },
+                "2" : {
+                    "img" : "assets/img/post-img2.jpg"
+                },
+                "3" : {
+                    "img" : "assets/img/post-img3.jpg"
+                },
+                "4" : {
+                    "img" : "assets/img/post-img4.jpg"
+                },
+                "5" : {
+                    "img" : "assets/img/post-img5.jpg"
+                }
+            }
+        }
+    }
+}

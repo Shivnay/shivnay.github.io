@@ -1,0 +1,43 @@
+{
+    "profile_name" : "shivnay swamy",
+    "first_name" : "shivnay",
+    "other_name" : "shivnesh",
+    "last_name" : "swamy",
+    "age" : 21,
+    "DOI" : "26/08/1997",
+    "bio" : "Developer, Artist, Dancer......need i say more!, Ohh im also indian",
+    "friends" : "alot",
+    "enemies" : "even more",
+    "avatar" : "assets/img/avatar-dhg.jpg",
+    "social_accounts" : {
+        "facebook" : "https://www.facebook.com/shivnay.swamy",
+        "twitter" : "https://twitter.com/swamy_shivnay",
+        "youtube" : "https://www.youtube.com/channel/UC2IynJ_GxRKrrXS3cbHJbYA?view_as=subscriber",
+        "instagram" : "https://www.instagram.com/shivnay_shivnesh",
+        "linkedin" : "https://www.linkedin.com/in/shivnay-swamy-4798a2133/"
+    },
+    "developer_accounts" : {
+        "github" : "https://github.com/Shivnay",
+        "udemy" : "https://www.udemy.com/user/shivnay-shivnesh-swamy/"
+    },
+    "about" : {
+        "recent_activity": {
+            "trip_location" : "nadi",
+            "latest_project" : "my portfolio"
+        },
+        "employment" : {
+            "title" : "Web Developer",
+            "employer" : "ZepherDevs",
+            "started_at" : "24/01/2019",
+            "satisfaction_level" : "80"
+        },
+        "redidence" : {
+            "country" : "fiji",
+            "region" : "viti levu",
+            "city" : "nakasi",
+            "road" : "chadwick",
+            "house" : "lot 4"
+        }
+    }
+
+}
