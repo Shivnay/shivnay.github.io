@@ -4,10 +4,11 @@
     "other_name" : "shivnesh",
     "last_name" : "swamy",
     "age" : 21,
-    "DOI" : "26/08/1997",
+    "DOB" : "26/08/1997",
     "bio" : "Developer, Artist, Dancer......need i say more!, Ohh im also indian",
     "friends" : "alot",
     "enemies" : "even more",
+    "relationship" : "Single and ready to eat pringles",
     "avatar" : "assets/img/avatar-dhg.jpg",
     "social_accounts" : {
         "facebook" : "https://www.facebook.com/shivnay.swamy",
@@ -21,16 +22,77 @@
         "udemy" : "https://www.udemy.com/user/shivnay-shivnesh-swamy/"
     },
     "about" : {
-        "recent_activity": {
-            "trip_location" : "nadi",
-            "latest_project" : "my portfolio"
+        "travel" : [
+            {
+                "country" : "fiji",
+                "region" : "viti levu",
+                "city" : "nadi",
+                "purpose" : "family arrival",
+                "start_date" : "13/06/2019",
+                "end_date" : "13/06/2019",
+                "satisfaction" : "90"
+            }
+        ],
+        "project" : [
+            {
+                "title" : "portfolio",
+                "type" : "web site",
+                "start_date" : "08/07/2019",
+                "end_date" : "12/07/2019",
+                "client" : "personal project",
+                "tags" : [
+                    "HTML5",
+                    "CSS3",
+                    "JQuery",
+                    "Bootstrap",
+                    "Sass"
+                ],
+                "satisfaction" : "95"
+            }
+        ],
+        "education" : {
+            "program" : "B. Sc",
+            "majors" : [
+                "computing science",
+                "information systems"
+            ],
+            "start_date" : "2016",
+            "end_date" : "2019",
+            "university" : [
+                {
+                    "title" : "university of the south pacific",
+                    "country" : "fiji",
+                    "region" : "viti levu",
+                    "city" : "suva",
+                    "campus" : "laucala",
+                    "website" : "https://www.usp.ac.fj"
+                }
+            ],
+            "satisfaction" : "40"
         },
-        "employment" : {
-            "title" : "Web Developer",
-            "employer" : "ZepherDevs",
-            "started_at" : "24/01/2019",
-            "satisfaction_level" : "80"
-        },
+        "employment" : [
+             {
+                "title" : "Web Developer",
+                "start_date" : "24/01/2019",
+                "end_date" : "cont",
+                "employer" : "ZepherDevs",
+                "satisfaction" : "80"
+            },
+            {
+                "title" : "Regional Telecenter Supervisor",
+                "start_date" : "12/01/2016",
+                "end_date" : "15/10/2017",
+                "employer" : "Ministry of Communication's Fiji",
+                "website" : "http://www.communications.gov.fj/index.php/telecenter",
+                "skills_acquired" : [
+                    "technical support",
+                    "information system supervisor",
+                    "iot support"
+                ],
+                "satisfaction" : "60"
+            }
+            
+        ],
         "redidence" : {
             "country" : "fiji",
             "region" : "viti levu",
