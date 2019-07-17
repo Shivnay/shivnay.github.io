@@ -1,5 +1,6 @@
-#PORTFOLIO
-
-#Future Updates
-Dark theme intergration
-loding animations
+#FEATURE UPDATES
+Navigation bar 
+  animation
+  structure
+  Layout
+  Toggle Button
