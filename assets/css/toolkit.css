@@ -1,5 +1,15 @@
 @charset "UTF-8";
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+@font-face {
+  font-family: 'Graffiti';
+   /*src: url('webfont.eot'); IE9 Compat Modes */
+   /*src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        /*url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+        /*url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       src: url('../fonts/sister-spray.ttf')  format('truetype') /* Safari, Android, iOS */
+       /* url('webfont.svg#svgFontName') format('svg'); Legacy iOS */
+}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -8457,7 +8467,10 @@ img.zoom-img {
   margin-bottom: 0;
   text-align: center;
   background-size: cover;
-  border: 0; }
+  background-attachment: fixed;
+  border: 0;
+  
+}
 
 .profile-header .container,
 .profile-header .container-fluid {
@@ -8467,8 +8480,12 @@ img.zoom-img {
   vertical-align: middle; }
 
 .profile-header .container-inner {
-  max-width: 300px;
-  margin: 0 auto; }
+  max-width: 320px;
+  margin: 0 auto; 
+  background: rgba(45,52,54,.7);
+  padding: 10px;
+  border-radius: 10px;
+  overflow: hidden;}  
 
 .profile-header .media-object {
   display: inline-block;
