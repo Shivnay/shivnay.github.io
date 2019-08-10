@@ -8469,7 +8469,7 @@ img.zoom-img {
   background-size: cover;
   background-attachment: fixed;
   border: 0;
-  
+  transition: 0.5s ease-in-out;
 }
 
 .profile-header .container,

@@ -1,11 +1,14 @@
 var $input = $('<div class="modal-body"><input type="text" class="form-control" placeholder="Message"></div>')
 
-// $(document).on('click', '.js-msgGroup', function () {
-//   $('.js-msgGroup, .js-newMsg').addClass('hidden-xs-up')
-//   $('.js-conversation').removeClass('hidden-xs-up')
-//   $('.modal-title').html('<a href="#" class="js-gotoMsgs">Back</a>')
-//   $input.insertBefore('.js-modalBody')
-// })
+$(function(){
+  var height = $(".profile-header").css("height");
+  $(".profile-header").click(()=>{
+    if ($(".profile-header").css("height") == height)
+      $(".profile-header").css("height", "100vh");
+    else 
+      $(".profile-header").css("height", height);
+  });
+});
 
 $(function () {
   //emoji animation
