@@ -114,16 +114,22 @@ strong {
   position: absolute;
   height: inherit;
   width: inherit;
-  transition: 0.3s ease-in-out;   
+  transition: 0.3s ease-in-out; 
 }
 #mood li span{
   line-height: unset; /*toolkist.css override*/
 }
+
+#mood li span img{
+  transition: 0.3s ease-in-out;   
+}
 .visibel{
-  font-size: 70px;}
+  width: 120px;
+  height: 120px;} 
 
 .hidden{
-  font-size: 0px;
+  width: 0px;
+  height: 0px;
 }
 .final{
   color: #3097D1;

@@ -21,8 +21,9 @@ $(function () {
     //setup inital view
     $("#mood ul .final").css("font-size","0px");
     var emoji_cycle = setInterval((event) => {
-        $("#mood ul li:nth-child("+emoji_index+")").animate({
-            "fontSize" : "0px"
+        $("#mood ul li:nth-child("+emoji_index+") span img").animate({
+            "width" : "0px",
+            "height" : "0px"
         },300,function(){
             if (emoji_index == (mood_emojis.length - 1)){
                 clearInterval(emoji_cycle);
@@ -33,7 +34,7 @@ $(function () {
             else
             {
                 emoji_index++;
-                $("#mood ul li:nth-child("+emoji_index+")").css("font-size","80px");
+                $("#mood ul li:nth-child("+emoji_index+") span img").css({"width":"120px", "height" : "120px"});
             }
         });
     }, 1000);
