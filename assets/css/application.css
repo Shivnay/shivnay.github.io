@@ -134,3 +134,53 @@ strong {
 .final{
   color: #3097D1;
 }
+
+.peek-cover, .peek-cover-mobile{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  transition: 0.25s ease-out;
+}
+
+.peek-cover{
+  top: -27px;
+}
+
+.peek-cover-mobile{
+  top: 400px;
+  left: -20px
+}
+
+.peek-cover:hover, .peek-cover-mobile:hover{
+  cursor: pointer;
+}
+
+.peek-cover:hover{
+  top: -57px;
+}
+
+.peek-cover-mobile:hover{
+  left: -1px
+}
+
+.peek-cover img{
+  width: inherit;
+  height: inherit;
+}
+
+.peek-cover-mobile img{
+  width: inherit;
+  height: inherit;
+}
+
+@media (max-width: 550px){
+  .peek-cover{
+    display: none;
+  }
+}
+
+@media (min-width: 550px){
+  .peek-cover-mobile{
+    display: none;
+  }
+}

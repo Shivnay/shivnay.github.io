@@ -1,8 +1,14 @@
 var $input = $('<div class="modal-body"><input type="text" class="form-control" placeholder="Message"></div>')
 
 $(function(){
+  setTimeout(function(){
+    $(".peek-cover-mobile").css("left", "-1px");
+  }, 1000);
+});
+
+$(function(){
   var height = $(".profile-header").css("height");
-  $(".profile-header").click(()=>{
+  $(".peek-cover, .peek-cover-mobile").click(()=>{
     if ($(".profile-header").css("height") == height)
       $(".profile-header").css("height", "100vh");
     else 

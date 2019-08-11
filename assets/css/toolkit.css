@@ -8470,6 +8470,7 @@ img.zoom-img {
   background-attachment: fixed;
   border: 0;
   transition: 0.5s ease-in-out;
+  overflow: hidden;
 }
 
 .profile-header .container,
@@ -8502,7 +8503,7 @@ img.zoom-img {
 
 @media (min-width: 576px) {
   .profile-header {
-    height: 450px; } }
+    height: 550px; } }
 
 @media (min-width: 768px) {
   .profile-header {
