@@ -8,5 +8,6 @@ Navigation bar
   Toggle Button
 
 PERFORMANCE
-Loading Images
+Loading Images (Node JS)
+Overall performance improvments
   
