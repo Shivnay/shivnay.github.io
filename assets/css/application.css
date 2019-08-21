@@ -60,17 +60,19 @@ strong {
 .dropdown-social-links li{
   flex: 1;
 }
+
 .dropdown-social-links .social-link{
   color: white;
   font-size: 35px;
-  margin-left: 30%;
 }
+
 .social-link{
   padding: unset;
   font-size: 27px;
   display: unset;
-  float: left;
+  margin: auto;
 }
+
 @media (min-width: 768px) {
   .app-navbar .navbar-collapse:after {
     height: auto;
