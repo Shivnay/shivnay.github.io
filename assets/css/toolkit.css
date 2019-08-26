@@ -278,7 +278,7 @@ body {
   font-weight: 300;
   line-height: 1.6;
   color: #292b2c;
-  background-color: #f5f8fa; }
+  background-color: #f2f6f8; }
 
 [tabindex="-1"]:focus {
   outline: none !important; }
@@ -2916,7 +2916,7 @@ tbody.collapse.show {
   border: 1px solid transparent;
   border-radius: 0.25rem; }
   .navbar-toggler:focus, .navbar-toggler:hover {
-    text-decoration: none; }
+    text-decoration: none;}
 
 .navbar-toggler-icon {
   display: inline-block;

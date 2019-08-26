@@ -28,7 +28,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
     
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="../">
           <img src="../assets/img/brand-white.png" alt="brand">
         </a>
     
@@ -45,16 +45,11 @@
                 <a class="nav-link button" href="mailto:zepherdev@gmail.com"><span class="icon icon-chat"></span> Contact</a>
               </li>
           </ul>
-         
-          
         </div>
     </nav>
     <!-- Profile Jumbotron-->
     <div class="profile-header" style="background-image: url(../assets/img/profile/cover.jpg);">
       <div class="container">
-        <div class="peek-cover-mobile">
-            <img src="../assets/img/emoji/peek-left.png" alt="peek-cover" />
-        </div>
         <div class="container-inner">
           <img class="rounded-circle media-object" src="../assets/img/profile/avatar-dhg.jpg">
           <h3 class="profile-header-user">Shivnay Shivnesh Swamy</h3>
@@ -492,16 +487,20 @@
         }
       });
 
+      //set initial attributes
+      $('.navbar').css("transition","0.25s ease-in");
+      $('.navbar button').css("visibility","hidden");
       $(window).scroll(function(){
-        var scroll = $(window).scrollTop();
-        $('.navbar').css("transition","0.25s ease-in");
+        
+        var scroll = $(window).scrollTop();        
         if(scroll >= 100){
             $('.navbar').addClass("bg-primary");
+            $('.navbar button').css("visibility","visible");
         } else {
           $('.navbar').removeClass("bg-primary");
+          $('.navbar button').css("visibility","hidden");
         }
       });
     </script>
   </body>
 </html>
-

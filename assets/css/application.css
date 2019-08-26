@@ -41,7 +41,7 @@ strong {
   height: 100vh;
 }
 .app-navbar .form-control {
-  border-color: #1C73A5;
+  border-color: #172933;
 }
 .app-navbar .app-notifications {
   margin-left: 1rem;
@@ -59,6 +59,7 @@ strong {
 }
 .dropdown-social-links li{
   flex: 1;
+  display: flex;
 }
 
 .dropdown-social-links .social-link{
