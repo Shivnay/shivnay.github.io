@@ -1,18 +1,20 @@
-#FEATURE UPDATES
-**************************
-  TO DO
-**************************
-UX Features
+#V2.0 Feature List
+
+#UX Features
 PROFILE SLIDE SHOW
-  Full screen profile cover toggle (clicked)
-    1. hide navbar and section navigation controls
-    2. Start profile summary animation
-    3. Exit anytime by selecting profile cover toggler
+  1. Full screen profile cover toggle (clicked)
+    a. hide navbar and section navigation controls
+    b. Start profile summary animation
+    c. Exit anytime by selecting profile cover toggler
 DARK MODE
-  Dark color scheme for night usgae and or user preference
-    1. Use local storage to remember user choice
+  1. Dark color scheme for night usgae and or user preference
+    -Use local storage to remember user choice
+
+#Design
+  1. New logo design
   
-PERFORMANCE
-Loading Images (Node JS)
-Overall performance improvments
+#PERFORMANCE
+1. Loading Images (Node JS)
+2. Overall performance improvments
+  - Improve Google Chrome Audit score
 
