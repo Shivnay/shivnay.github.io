@@ -4,18 +4,19 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="">
-    <title>Profile &middot;</title>
+    <meta name="description" content="shivnay shivnesh swamy developer profile and portfolio">
+    <meta name="keywords" content="shivnay swamy zepherdev profile portfolio">
+    <meta name="author" content="shivnay shivnesh swamy">
+    <title>Shivnay Swamy &middot; Profile</title>
+    <link rel="icon" href="../assets/img/favicon.png">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
     <link href="../assets/css/toolkit.css" rel="stylesheet">
     <link href="../assets/css/application.css" rel="stylesheet">
     <link href="../assets/font_awesome/css/all.css" rel="stylesheet">
   </head>
-  <body class="with-top-navbar">
+  <body>
       <!-- Top Nav Bar-->
-    <nav class="navbar navbar-toggleable-sm fixed-top navbar-inverse bg-primary app-navbar">
+    <nav class="navbar navbar-toggleable-sm fixed-top navbar-inverse app-navbar">
         <button
           class="navbar-toggler navbar-toggler-right hidden-md-up"
           type="button"
@@ -27,9 +28,8 @@
           <span class="navbar-toggler-icon"></span>
         </button>
     
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="../">
           <img src="../assets/img/brand-white.png" alt="brand">
-          <!-- <span class="brand"><i class="fas fa-wind"></i></span> -->
         </a>
     
         <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -45,35 +45,36 @@
                 <a class="nav-link button" href="mailto:zepherdev@gmail.com"><span class="icon icon-chat"></span> Contact</a>
               </li>
           </ul>
-          <ul class="dropdown-social-links">
-              <li class="nav-item hidden-md-up">
-                <a class="social-link nav-link" href="https://www.facebook.com/shivnay.swamy" target="_blank">
-                  <span class="icon icon-facebook"></span>
-                </a>
-              </li>
-              <li class="nav-item hidden-md-up">
-                <a class="social-link nav-link" href="https://twitter.com/swamy_shivnay" target="_blank">
-                  <span class="icon icon-twitter"></span>
-                </a>
-              </li>
-              <li class="nav-item hidden-md-up">
-                <a class="social-link nav-link" href="https://www.youtube.com/channel/UC2IynJ_GxRKrrXS3cbHJbYA?view_as=subscriber" target="_blank">
-                  <span class="icon icon-youtube-with-circle"></span>
-                </a>
-              </li>
-              <li class="nav-item hidden-md-up">
-                <a class="social-link nav-link" href="https://github.com/Shivnay" target="_blank">
-                  <span class="icon icon-github-with-circle"></span>
-                </a>
-              </li>
-              <li class="nav-item hidden-md-up">
-                <a class="social-link nav-link" href="https://www.instagram.com/shivnay_shivnesh" target="_blank">
-                  <span class="icon icon-instagram-with-circle"></span>
-                </a>
-              </li>
+        </div>
+    </nav>
+    <!-- Profile Jumbotron-->
+    <div class="profile-header" style="background-image: url(../assets/img/profile/cover.jpg);">
+      <div class="container">
+        <div class="container-inner">
+          <img class="rounded-circle media-object" src="../assets/img/profile/avatar-dhg.jpg">
+          <h3 class="profile-header-user">Shivnay Shivnesh Swamy</h3>
+          <p class="profile-header-bio">
+            <!-- Entrepreneur, Proficient in the field of Web and Mobile Applications 
+            Development, and all its entirety. -->
+            Developer, Sketch Artist, Choreographer, Tech Enthusiast, hoarder, 
+            insomniac, socially anxious, probably should have stopped at tech enthusiast.
+          </p>
+          <ul class="card-menu">
+            <li class="card-menu-item">
+              <a href="#userModal" class="text-inherit" data-toggle="modal">
+                Friends
+                <h6 class="my-0">Alot</h6>
+              </a>
+            </li>
+            <li class="card-menu-item">
+              <a href="#userModal" class="text-inherit" data-toggle="modal">
+                Enemies
+                <h6 class="my-0">Even more</h6>
+              </a>
+            </li>
           </ul>
-          <!-- Social Accounts-->
-          <ul class="nav navbar-nav float-right mr-0 hidden-sm-down">
+          <!-- Social Accounts -->
+          <ul class="dropdown-social-links">
             <li class="nav-item">
               <a class="social-link nav-link" href="https://www.facebook.com/shivnay.swamy" target="_blank">
                 <span class="icon icon-facebook-with-circle"></span>
@@ -106,17 +107,6 @@
               </li>
           </ul>
         </div>
-    </nav>
-    <!-- Profile Jumbotron-->
-    <div class="profile-header" style="background-image: url(../assets/img/iceland.jpg);">
-      <div class="container">
-        <div class="container-inner">
-          <img class="rounded-circle media-object" src="../assets/img/avatar-dhg.jpg">
-          <h3 class="profile-header-user">Shivnay Shivnesh Swamy</h3>
-          <p class="profile-header-bio">
-            This is me, i know im boring, but where would you be without me!.
-          </p>
-        </div>
       </div>
       <!-- Profile Options-->
       <nav class="profile-header-nav">
@@ -129,6 +119,11 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#about-me" data-toggle="tab" role="tab"><span><i class="fas fa-user"></i></span> About Me</a>
+          </li>
+          <li>
+              <div class="peek-cover">
+                  <img src="../assets/img/emoji/peek-bottom.png" alt="peek-cover" />
+              </div>
           </li>
         </ul>
       </nav>
@@ -196,9 +191,7 @@
           <img data-width="640" data-height="400" data-action="zoom" src="../assets/img/instagram_1.jpg">
         </div>
   
-        <div>
-          <img data-width="640" data-height="640" data-action="zoom" src="../assets/img/instagram_2.jpg">
-        </div>
+        
       </div>
       <!-- Achievements Tab-->
       <div class="tab-pane fade show container my-4" role="tabpanel" id="achievements">
@@ -440,7 +433,7 @@
                   <h3>Skill</h3>
                   <hr />
                   <ul class="list-unstyled">
-                    <li class="list-item-float text-capitalize"> <span class="icon icon-triangle-right"></span>Creative Talent</li>
+                    <li class="list-item-float text-capitalize"> <span class="icon icon-triangle-right"></span>Creative Design</li>
                     <li class="list-item-float text-capitalize"> <span class="icon icon-triangle-right"></span>Full Stack Web Development</li>
                     <li class="list-item-float text-capitalize"> <span class="icon icon-triangle-right"></span>Cross-Platform Mobile Application Development</li>
                     <li class="list-item-float text-capitalize"> <span class="icon icon-triangle-right"></span>Web UI/UX</li>
@@ -492,8 +485,22 @@
         if (window.BS&&window.BS.loader&&window.BS.loader.length) {
           while(BS.loader.length){(BS.loader.pop())()}
         }
-      })
+      });
+
+      //set initial attributes
+      $('.navbar').css("transition","0.25s ease-in");
+      $('.navbar button').css("visibility","hidden");
+      $(window).scroll(function(){
+        
+        var scroll = $(window).scrollTop();        
+        if(scroll >= 100){
+            $('.navbar').addClass("bg-primary");
+            $('.navbar button').css("visibility","visible");
+        } else {
+          $('.navbar').removeClass("bg-primary");
+          $('.navbar button').css("visibility","hidden");
+        }
+      });
     </script>
   </body>
 </html>
-
