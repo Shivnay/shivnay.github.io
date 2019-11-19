@@ -2812,7 +2812,7 @@ tbody.collapse.show {
     cursor: not-allowed; }
     .button{
       border-radius: 5px;
-      background: rgba(255, 255, 255, 0.5);
+      
     }
 .nav-tabs {
   border-bottom: 1px solid #ddd; }

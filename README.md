@@ -9,6 +9,9 @@ PROFILE SLIDE SHOW
 DARK MODE
   1. Dark color scheme for night usgae and or user preference
     -Use local storage to remember user choice
+POST CONTINUE READING
+  1. set max word limit to which the remaing contents of the post are hidden until the user 
+     requests to conitnue reading.
 
 #Design
   1. New logo design
